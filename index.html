@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 융합 교육 포트폴리오</title>
+    <!-- 폰트 로드: Pretendard -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+    <!-- 외부 CSS 연결 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 외부 JS 연결 (DOM 로드 후 실행되도록 defer 속성 추가) -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Iji-saem's Edu-Space</h1>
+        <div class="hamburger-menu"></div>
+    </header>
+
+    <section class="hero">
+        <h2>누구나 쉽게 배우는 AI,<br>코딩으로 만지는 세상</h2>
+        <p>초·중·고 및 특수 아동을 위한 맞춤형 AI 융합 교육 콘텐츠를 개발합니다.</p>
+        <a href="#projects" class="btn">프로젝트 보기</a>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">교육 프로젝트</h2>
+        
+        <div class="filter-tags">
+            <button class="tag-btn active">전체</button>
+            <button class="tag-btn">초등</button>
+            <button class="tag-btn">특수교육</button>
+            <button class="tag-btn">로봇/피지컬</button>
+        </div>
+
+        <!-- 프로젝트 카드 예시 -->
+        <div class="card">
+            <div class="card-img-placeholder">이미지 영역</div>
+            <div class="badge-group">
+                <span class="badge badge-edu">초등 5-6학년 과학 (환경)</span>
+                <span class="badge badge-ai">Vision API 활용</span>
+            </div>
+            <h3>탄소 발자국 지우기 대작전</h3>
+            <p>스마트폰 카메라로 재활용품을 비추면 AI가 종류를 인식하여 올바른 분리수거 방법을 알려주는 인터랙티브 웹 앱입니다.</p>
+        </div>
+    </section>
+
+</body>
+</html>
